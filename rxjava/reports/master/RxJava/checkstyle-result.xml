@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.27-SNAPSHOT">
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/operators/OperatorFlatMapPerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/operators/OperatorMergePerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/operators/OperatorMapPerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/operators/OperatorRangePerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/operators/OperatorSerializePerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/operators/OperatorObserveOnPerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/subjects/ReplaySubjectPerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/internal/AtomicPerf.java">
+<error line="61" severity="warning" message="&apos;=&apos; has incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="67" severity="warning" message="&apos;=&apos; has incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/internal/RxRingBufferPerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/internal/IndexedRingBufferPerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/PerfBaseline.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/jmh/InputWithIncrementingInteger.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/jmh/LatchedObserver.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/schedulers/IOSchedulerPerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/schedulers/ComputationSchedulerPerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/observables/BlockingObservablePerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/subscriptions/CompositeSubscriptionPerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/subscriptions/SubscriptionListPerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/subscriptions/MultipleAssignmentSubscriptionPerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/subscriptions/SerialSubscriptionPerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/subscriptions/SubscriptionListConcurrentPerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/perf/java/rx/subscriptions/CompositeSubscriptionConcurrentPerf.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/Producer.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/Notification.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/Observable.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/plugins/RxJavaErrorHandler.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/plugins/RxJavaSchedulersHook.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/plugins/RxJavaObservableExecutionHookDefault.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/plugins/RxJavaPlugins.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/plugins/RxJavaObservableExecutionHook.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/observers/SerializedObserver.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/observers/SerializedSubscriber.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/observers/TestSubscriber.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/observers/Observers.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/observers/TestObserver.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/observers/Subscribers.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/observers/SafeSubscriber.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/subjects/BehaviorSubject.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/subjects/ReplaySubject.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/subjects/AsyncSubject.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/subjects/SubjectSubscriptionManager.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/subjects/TestSubject.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/subjects/PublishSubject.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/subjects/Subject.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/subjects/SerializedSubject.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorUnsubscribeOn.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorTake.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorSkipLastTimed.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorZipIterable.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorTakeLastTimed.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorTimeoutBase.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorTimeoutWithSelector.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorToMap.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeMulticastSelector.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorMapNotification.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorScan.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorTakeUntilPredicate.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorElementAt.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorSkip.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorThrottleFirst.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeUsing.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorDoOnUnsubscribe.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorTakeTimed.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorTimeout.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorTakeLast.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorAsObservable.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorDebounceWithTime.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorOnBackpressureBuffer.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorDelayWithSelector.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/BufferUntilSubscriber.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorOnErrorResumeNextViaObservable.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorDistinctUntilChanged.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorConcat.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorOnErrorResumeNextViaFunction.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorBufferWithTime.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorTimeInterval.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorDoOnEach.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorWithLatestFrom.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorAny.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeFromIterable.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorToObservableList.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorWindowWithSize.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorMulticast.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeTimerOnce.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorSwitchIfEmpty.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorDebounceWithSelector.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorMaterialize.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorOnExceptionResumeNextViaObservable.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorSerialize.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeRefCount.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorToObservableSortedList.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/BlockingOperatorToFuture.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorWindowWithTime.java">
+<error line="183" severity="warning" message="&apos;if&apos; has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="184" severity="warning" message="&apos;if&apos; child has incorrect indentation level 20, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="185" severity="warning" message="&apos;if&apos; child has incorrect indentation level 20, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="186" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="187" severity="warning" message="&apos;if&apos; has incorrect indentation level 16, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="188" severity="warning" message="&apos;if&apos; child has incorrect indentation level 20, expected level should be 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="189" severity="warning" message="&apos;if&apos; child has incorrect indentation level 20, expected level should be 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="190" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 16, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="191" severity="warning" message="&apos;else&apos; child has incorrect indentation level 20, expected level should be 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="193" severity="warning" message="&apos;else&apos; child has incorrect indentation level 20, expected level should be 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="194" severity="warning" message="&apos;else rcurly&apos; has incorrect indentation level 16, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorObserveOn.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorSequenceEqual.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorSampleWithObservable.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorDistinct.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeCache.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorCast.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/BlockingOperatorNext.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorReplay.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeRedo.java">
+<error line="342" severity="warning" message="&apos;if&apos; has incorrect indentation level 16, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="343" severity="warning" message="&apos;if&apos; child has incorrect indentation level 20, expected level should be one of the following: 24, 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="344" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 16, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/TakeLastQueueProducer.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeRange.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeToObservableFuture.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorOnErrorFlatMap.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorSampleWithTime.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeTimerPeriodically.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeCombineLatest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorDematerialize.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeDefer.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorMergeMaxConcurrent.java">
+<error line="187" severity="warning" message="&apos;if&apos; has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="188" severity="warning" message="&apos;if&apos; child has incorrect indentation level 20, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="189" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="190" severity="warning" message="&apos;else&apos; child has incorrect indentation level 20, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="191" severity="warning" message="&apos;else rcurly&apos; has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorMerge.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorDoOnRequest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/BlockingOperatorMostRecent.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorSwitch.java">
+<error line="217" severity="warning" message="&apos;if&apos; has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="218" severity="warning" message="&apos;if&apos; child has incorrect indentation level 20, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="219" severity="warning" message="&apos;if&apos; child has incorrect indentation level 20, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="220" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="221" severity="warning" message="&apos;else&apos; child has incorrect indentation level 20, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="223" severity="warning" message="&apos;else&apos; child has incorrect indentation level 20, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="224" severity="warning" message="&apos;else rcurly&apos; has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/NotificationLite.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorDefaultIfEmpty.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorFinally.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorSkipTimed.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorWindowWithObservable.java">
+<error line="153" severity="warning" message="&apos;if&apos; has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="154" severity="warning" message="&apos;if&apos; child has incorrect indentation level 20, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="155" severity="warning" message="&apos;if&apos; child has incorrect indentation level 20, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="156" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="157" severity="warning" message="&apos;if&apos; has incorrect indentation level 16, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="158" severity="warning" message="&apos;if&apos; child has incorrect indentation level 20, expected level should be 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="159" severity="warning" message="&apos;if&apos; child has incorrect indentation level 20, expected level should be 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="160" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 16, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="161" severity="warning" message="&apos;else&apos; child has incorrect indentation level 20, expected level should be 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="163" severity="warning" message="&apos;else&apos; child has incorrect indentation level 20, expected level should be 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="164" severity="warning" message="&apos;else rcurly&apos; has incorrect indentation level 16, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorSkipLast.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorOnErrorReturn.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorTakeWhile.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeDelaySubscriptionWithSelector.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorDoOnSubscribe.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeDelaySubscription.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorTimestamp.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorRetryWithPredicate.java">
+<error line="68" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="70" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="72" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="73" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="75" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="77" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="123" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/BlockingOperatorToIterator.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorMapPair.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorToMultimap.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorBufferWithSize.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorFilter.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeGroupJoin.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/BackpressureUtils.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorBufferWithStartEndObservable.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorWindowWithStartEndObservable.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorOnBackpressureBlock.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorGroupBy.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorPublish.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorZip.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorMap.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorTakeUntil.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorAll.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/BlockingOperatorLatest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeJoin.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorOnBackpressureDrop.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OnSubscribeAmb.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorBufferWithSingleObservable.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorSkipWhile.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorSingle.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorSubscribeOn.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorDelay.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/operators/OperatorSkipUntil.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/SubscriptionList.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/RxThreadFactory.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/SynchronizedSubscription.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/UtilityFunctions.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/SubscriptionIndexedRingBuffer.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/ObjectPool.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/IndexedRingBuffer.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/PaddedAtomicIntegerBase.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/PlatformDependent.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/FrontPadding.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/SynchronizedQueue.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/BackpressureDrainManager.java">
+<error line="68" severity="warning" message="&apos;=&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/PaddedAtomicInteger.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/ScalarSynchronousObservable.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/RxRingBuffer.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/unsafe/MessagePassingQueue.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/unsafe/Pow2.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/unsafe/SpmcArrayQueue.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/unsafe/ConcurrentSequencedCircularArrayQueue.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/unsafe/ConcurrentCircularArrayQueue.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/unsafe/MpmcArrayQueue.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/unsafe/SpscArrayQueue.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/unsafe/UnsafeAccess.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/util/SubscriptionRandomList.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/schedulers/ScheduledAction.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/schedulers/NewThreadWorker.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/internal/schedulers/EventLoopsScheduler.java">
+<error line="90" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 7, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="91" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 7, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/annotations/Experimental.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/annotations/Beta.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/Subscription.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/Observer.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/schedulers/ExecutorScheduler.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/schedulers/CachedThreadScheduler.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/schedulers/SleepingAction.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/schedulers/TestScheduler.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/schedulers/ImmediateScheduler.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/schedulers/GenericScheduledExecutorService.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/schedulers/NewThreadScheduler.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/schedulers/TimeInterval.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/schedulers/Timestamped.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/schedulers/Schedulers.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/schedulers/TrampolineScheduler.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/schedulers/package-info.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/observables/ConnectableObservable.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/observables/AbstractOnSubscribe.java">
+<error line="345" severity="warning" message="&apos;if&apos; has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="346" severity="warning" message="&apos;do..while&apos; has incorrect indentation level 20, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="347" severity="warning" message="&apos;if&apos; has incorrect indentation level 24, expected level should be 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="348" severity="warning" message="&apos;if&apos; child has incorrect indentation level 28, expected level should be 32." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="349" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 24, expected level should be 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="350" severity="warning" message="&apos;do..while rcurly&apos; has incorrect indentation level 20, expected level should be 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="351" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="476" severity="warning" message="&apos;if&apos; has incorrect indentation level 12, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="477" severity="warning" message="&apos;if&apos; child has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="478" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 12, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="589" severity="warning" message="&apos;if&apos; has incorrect indentation level 12, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="590" severity="warning" message="&apos;if&apos; child has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="591" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 12, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="603" severity="warning" message="&apos;if&apos; has incorrect indentation level 12, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="604" severity="warning" message="&apos;if&apos; child has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="605" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 12, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/observables/GroupedObservable.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/observables/BlockingObservable.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/Subscriber.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/subscriptions/BooleanSubscription.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/subscriptions/Subscriptions.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/subscriptions/MultipleAssignmentSubscription.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/subscriptions/RefCountSubscription.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/subscriptions/CompositeSubscription.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/subscriptions/SerialSubscription.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/exceptions/OnErrorNotImplementedException.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/exceptions/MissingBackpressureException.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/exceptions/Exceptions.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/exceptions/OnErrorThrowable.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/exceptions/CompositeException.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/exceptions/OnErrorFailedException.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/FuncN.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Action2.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Action9.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Action8.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Func3.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Action6.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Func4.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Action0.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Func8.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Action7.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Action3.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Func5.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Action5.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Action.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Func2.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Func6.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Func0.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Func7.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Func9.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Func1.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Function.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/ActionN.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Functions.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Action4.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Action1.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/functions/Actions.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/package-info.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/main/java/rx/Scheduler.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/MergeTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/ScanTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/ReduceTests.java">
+<error line="49" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 20, expected level should be one of the following: 12, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="51" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 24, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="52" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 20, expected level should be one of the following: 12, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="53" severity="warning" message="&apos;object def rcurly&apos; has incorrect indentation level 16, expected level should be one of the following: 8, 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="72" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 20, expected level should be one of the following: 12, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="74" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 24, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="75" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 20, expected level should be one of the following: 12, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="76" severity="warning" message="&apos;object def rcurly&apos; has incorrect indentation level 16, expected level should be one of the following: 8, 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="99" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 20, expected level should be one of the following: 12, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="101" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 24, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="102" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 20, expected level should be one of the following: 12, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="103" severity="warning" message="&apos;object def rcurly&apos; has incorrect indentation level 16, expected level should be one of the following: 8, 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/CovarianceTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/SubscriberTest.java">
+<error line="445" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 15, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="446" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 15, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/plugins/RxJavaPluginsTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/ThrottleLastTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/observers/TestObserverTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/observers/SafeObserverTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/observers/TestSubscriberTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/observers/SerializedObserverTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/subjects/ReplaySubjectTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/subjects/AsyncSubjectTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/subjects/ReplaySubjectConcurrencyTest.java">
+<error line="366" severity="warning" message="&apos;.&apos; has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/subjects/PublishSubjectTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/subjects/ReplaySubjectBoundedConcurrencyTest.java">
+<error line="370" severity="warning" message="&apos;.&apos; has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/subjects/SerializedSubjectTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/subjects/BehaviorSubjectTest.java">
+<error line="454" severity="warning" message="&apos;.&apos; has incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/ThrottleWithTimeoutTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/CombineLatestTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorScanTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorDistinctTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorRetryTest.java">
+<error line="89" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 20, expected level should be one of the following: 24, 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="421" severity="warning" message="&apos;if&apos; has incorrect indentation level 32, expected level should be one of the following: 36, 40." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="422" severity="warning" message="&apos;if&apos; child has incorrect indentation level 36, expected level should be one of the following: 40, 44." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="423" severity="warning" message="&apos;if&apos; child has incorrect indentation level 36, expected level should be one of the following: 40, 44." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="424" severity="warning" message="&apos;if&apos; child has incorrect indentation level 36, expected level should be one of the following: 40, 44." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="425" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 32, expected level should be one of the following: 36, 40." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="839" severity="warning" message="&apos;method call&apos; child has incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="883" severity="warning" message="&apos;method call&apos; child has incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorConcatTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorZipIterableTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorZipTest.java">
+<error line="783" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 12, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="785" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be one of the following: 24, 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="786" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 12, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="788" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 12, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="790" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be one of the following: 24, 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="791" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 12, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="793" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 12, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="795" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be one of the following: 24, 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="796" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 12, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="798" severity="warning" message="&apos;object def rcurly&apos; has incorrect indentation level 8, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorWindowWithTimeTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorRetryWithPredicateTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorMergeTest.java">
+<error line="1132" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1133" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1135" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1177" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1178" severity="warning" message="&apos;if&apos; has incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1179" severity="warning" message="&apos;for&apos; has incorrect indentation level 16, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1180" severity="warning" message="&apos;for&apos; child has incorrect indentation level 20, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1181" severity="warning" message="&apos;for rcurly&apos; has incorrect indentation level 16, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1182" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1183" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorTakeTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorWindowWithObservableTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/BlockingOperatorLatestTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/BufferUntilSubscriberTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorGroupByTest.java">
+<error line="1155" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 12, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1157" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be one of the following: 24, 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1158" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be one of the following: 24, 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1168" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 12, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1170" severity="warning" message="&apos;object def rcurly&apos; has incorrect indentation level 8, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1420" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 12, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1422" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 12, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1424" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 12, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1426" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 12, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1428" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 12, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1430" severity="warning" message="&apos;if&apos; has incorrect indentation level 16, expected level should be one of the following: 24, 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1431" severity="warning" message="&apos;if&apos; child has incorrect indentation level 20, expected level should be one of the following: 28, 32." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1432" severity="warning" message="&apos;if rcurly&apos; has incorrect indentation level 16, expected level should be one of the following: 24, 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1433" severity="warning" message="&apos;else&apos; child has incorrect indentation level 20, expected level should be one of the following: 28, 32." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1434" severity="warning" message="&apos;else rcurly&apos; has incorrect indentation level 16, expected level should be one of the following: 24, 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1435" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 12, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1436" severity="warning" message="&apos;object def rcurly&apos; has incorrect indentation level 8, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorMaterializeTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorTimeIntervalTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorSkipWhileTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorDistinctUntilChangedTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorToObservableListTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OnSubscribeTimerTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorToObservableSortedListTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorOnErrorReturnTest.java">
+<error line="156" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 40, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="158" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 48, expected level should be one of the following: 24, 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="159" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 40, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorMergeMaxConcurrentTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorUnsubscribeOnTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/BlockingOperatorNextTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorWindowWithSizeTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorDoOnEachTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorDoOnRequestTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorAllTest.java">
+<error line="128" severity="warning" message="&apos;object def rcurly&apos; has incorrect indentation level 8, expected level should be one of the following: 12, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorDebounceTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorTakeUntilTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorTakeTimedTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorThrottleFirstTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorFlatMapTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorWithLatestFromTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorLastTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorSwitchIfEmptyTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorWindowWithStartEndObservableTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorSkipTimedTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OnSubscribeUsingTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/BlockingOperatorToIteratorTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorMergeDelayErrorTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/BlockingOperatorToFutureTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorFirstTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OnSubscribeGroupJoinTest.java">
+<error line="204" severity="warning" message="&apos;method call rparen&apos; has incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorCastTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorObserveOnTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorTakeLastTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorOnBackpressureDropTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorDelayTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OnSubscribeRefCountTest.java">
+<error line="578" severity="warning" message="&apos;.&apos; has incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="584" severity="warning" message="&apos;.&apos; has incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorToMapTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorDematerializeTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorFinallyTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorSingleTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OnSubscribeRangeTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorDoOnSubscribeTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OnSubscribeAmbTest.java">
+<error line="91" severity="warning" message="&apos;array initialization&apos; child has incorrect indentation level 16, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="93" severity="warning" message="&apos;array initialization&apos; child has incorrect indentation level 16, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="95" severity="warning" message="&apos;array initialization&apos; child has incorrect indentation level 16, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="122" severity="warning" message="&apos;array initialization&apos; child has incorrect indentation level 16, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="147" severity="warning" message="&apos;array initialization&apos; child has incorrect indentation level 16, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="151" severity="warning" message="&apos;array initialization&apos; child has incorrect indentation level 16, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorTakeUntilPredicateTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/NotificationLiteTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorTakeLastTimedTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorTimeoutWithSelectorTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OnSubscribeDeferTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorRepeatTest.java">
+<error line="194" severity="warning" message="&apos;method call&apos; child has incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorFilterTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorReplayTest.java">
+<error line="485" severity="warning" message="&apos;.&apos; has incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="494" severity="warning" message="&apos;new&apos; has incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="495" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 12, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="497" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="498" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 12, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="499" severity="warning" message="&apos;object def rcurly&apos; has incorrect indentation level 8, expected level should be one of the following: 12, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="518" severity="warning" message="&apos;method call&apos; child has incorrect indentation level 12, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="519" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 16, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="521" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 20, expected level should be one of the following: 24, 28." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="522" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 16, expected level should be one of the following: 20, 24." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="523" severity="warning" message="&apos;object def rcurly&apos; has incorrect indentation level 12, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorSkipTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorMapTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorSampleTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorElementAtTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorZipCompletionTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorOnExceptionResumeNextViaObservableTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorSequenceEqualTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorOnBackpressureBufferTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorOnErrorResumeNextViaFunctionTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorDefaultIfEmptyTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorBufferTest.java">
+<error line="994" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 24, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="998" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 24, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="999" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 24, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1003" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 24, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="1004" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 24, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorSkipLastTimedTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorSkipUntilTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorTakeWhileTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OnSubscribeCacheTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OnSubscribeCombineLatestTest.java">
+<error line="861" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 15, expected level should be one of the following: 16, 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorSerializeTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorSkipLastTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorTimeoutTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorReduceTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OnSubscribeFromIterableTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OnSubscribeJoinTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorMulticastTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorAnyTest.java">
+<error line="220" severity="warning" message="&apos;object def rcurly&apos; has incorrect indentation level 8, expected level should be one of the following: 12, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OnSubscribeToObservableFutureTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OnBackpressureBlockTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorDoOnUnsubscribeTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorTimestampTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorOnErrorResumeNextViaObservableTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorPublishTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/SafeSubscriberTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorToMultimapTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/BlockingOperatorMostRecentTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorSubscribeOnTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorSwitchTest.java">
+<error line="553" severity="warning" message="&apos;.&apos; has incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/operators/OperatorAsObservableTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/util/RxRingBufferSpscTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/util/RxRingBufferBase.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/util/RxRingBufferWithoutUnsafeTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/util/SubscriptionListTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/util/RxRingBufferSpmcTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/util/IndexedRingBufferTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/internal/util/JCToolsQueueTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/BackpressureTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/IntervalDemo.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/GroupByTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/util/AssertObservable.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/util/AssertObservableTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/test/TestObstructionDetectionTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/test/TestObstructionDetection.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/test/OperatorTester.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/EventStream.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/ZipTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/schedulers/NewThreadSchedulerTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/schedulers/ComputationSchedulerTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/schedulers/AbstractSchedulerTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/schedulers/TrampolineSchedulerTest.java">
+<error line="123" severity="warning" message="&apos;method def modifier&apos; has incorrect indentation level 37, expected level should be one of the following: 32, 36." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="125" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 41, expected level should be one of the following: 36, 40." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="131" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 37, expected level should be one of the following: 32, 36." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/schedulers/AbstractSchedulerConcurrencyTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/schedulers/TestSchedulerTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/schedulers/CachedThreadSchedulerTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/schedulers/ImmediateSchedulerTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/schedulers/SchedulerTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/schedulers/ExecutorSchedulerTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/ObservableDoOnTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/ConcatTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/ObservableWindowTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/observables/AbstractOnSubscribeTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/observables/BlockingObservableTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/StartWithTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/subscriptions/SubscriptionsTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/subscriptions/SerialSubscriptionTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/subscriptions/CompositeSubscriptionTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/subscriptions/MultipleAssignmentSubscriptionTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/subscriptions/RefCountSubscriptionTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/ObservableTests.java">
+<error line="911" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="912" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="914" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="916" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="918" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="920" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="921" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="922" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="923" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="924" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="925" severity="warning" message="&apos;method def rcurly&apos; has incorrect indentation level 12, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/ErrorHandlingTests.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/exceptions/OnNextValueTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/exceptions/CompositeExceptionTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/exceptions/ExceptionsTest.java">
+</file>
+<file name="/home/alinkov/IdeaProjects/git/test/contribution/checkstyle-tester/repositories/RxJava/src/test/java/rx/exceptions/TestException.java">
+</file>
+</checkstyle>
